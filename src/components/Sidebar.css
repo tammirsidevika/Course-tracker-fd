@@ -1,0 +1,77 @@
+.sidebar{
+width:260px;
+height:100vh;
+background:#fff;
+padding:20px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.logo{
+background:#5b5ce7;
+color:#fff;
+text-align:center;
+padding:15px;
+border-radius:15px;
+margin-bottom:25px;
+}
+
+.menu,
+.bottomMenu{
+list-style:none;
+padding:0;
+}
+
+.menu li,
+.bottomMenu li{
+display:flex;
+align-items:center;
+gap:15px;
+padding:14px;
+margin-bottom:10px;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+font-size:16px;
+}
+
+.menu li:hover,
+.bottomMenu li:hover{
+background:#eef2ff;
+}
+
+.active{
+background:#eef2ff;
+color:#5b5ce7;
+font-weight:bold;
+}
+
+.upgrade{
+background:#5b5ce7;
+color:white;
+padding:20px;
+border-radius:15px;
+text-align:center;
+}
+
+.upgrade h3{
+margin-bottom:10px;
+}
+
+.upgrade p{
+margin-bottom:15px;
+font-size:14px;
+}
+
+.upgrade button{
+width:100%;
+padding:10px;
+border:none;
+background:white;
+color:#5b5ce7;
+font-weight:bold;
+border-radius:10px;
+cursor:pointer;
+}
