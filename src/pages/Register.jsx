@@ -33,7 +33,7 @@ function Register() {
 
 <h2>Register</h2>
 
-<form onSubmit={handleSubmit}>
+<form onSubmit={handleSubmit} apiUrl={API_URL}>
 
 <input
 type="text"
