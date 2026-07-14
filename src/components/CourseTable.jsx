@@ -1,5 +1,5 @@
 import "./CourseTable.css";
-
+const API_URL = "https://course-tracker-bd.onrender.com";
 function CourseTable({ courses }) {
   const getCourseClass = (courseName) => {
     const name = courseName.toLowerCase();
