@@ -35,7 +35,7 @@ function AddCourse({ addCourse }) {
     <div className="form-container">
       <h2>Add Course</h2>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} apiUrl={API_URL}>
         <input
           type="text"
           name="courseName"
