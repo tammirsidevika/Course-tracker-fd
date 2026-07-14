@@ -26,9 +26,9 @@ function Dashboard() {
 
         <SearchBar />
 
-        <AddCourse addCourse={addCourse} />
+        <AddCourse addCourse={addCourse} apiUrl={API_URL} />
 
-        <CourseTable courses={courses} />
+        <CourseTable courses={courses} apiUrl={API_URL} />
       </div>
     </div>
   );
