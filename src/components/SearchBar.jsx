@@ -1,5 +1,5 @@
 import "./SearchBar.css";
-
+const API_URL = "https://course-tracker-bd.onrender.com";
 function SearchBar({ search, setSearch }) {
   return (
     <div className="search-container">
