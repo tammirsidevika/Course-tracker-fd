@@ -1,4 +1,5 @@
 import "./Sidebar.css";
+const API_URL = "https://course-tracker-bd.onrender.com";
 import {
   FaBook,
   FaChartLine,
